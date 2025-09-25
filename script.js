@@ -3,8 +3,9 @@ function firstChar(text) {
 	for(let i=0; i<=text.length; i++){
 		if(text[i] !== " ")
 			return text[i];
-		else return "";
 	}
+		return "";
+
 }
 
 // Do not change the code below
